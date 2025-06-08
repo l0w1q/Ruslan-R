@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>форма выбора параметров обучения</title>
+</head>
+<body>
+    <form name="formal">
+        Какой язык вы хотите изучать:
+        <select name="language" size="1">
+            <option selected value="html">html
+            <option value="php">php
+            <option value="java">java
+        </select><br>
+        
+        Какое время вы готовы на это потратить:<br>
+        <select name="time" size="3">
+            <option selected value="1">1 месяц
+            <option value="2">2 месяца
+            <option value="3">3 месяца
+        </select><br>
+        
+        Какие дни недели для занятий вас устроят:<br>
+        (выбирайте с каждой клавишей girl)<br>
+        <select name="day" size="7" multiple>
+            <option selected value="mon">понедельник
+            <option value="true">вторник
+            <option value="wen">среда
+            <option selected value="thu">четверг
+            <option value="fri">пятница
+            <option value="sat">суббота
+            <option value="san">воскресенье
+        </select>
+    </form>
+</body>
+</html>
